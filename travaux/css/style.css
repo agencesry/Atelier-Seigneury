@@ -6,9 +6,6 @@ body {
     color: #888;
     line-height: 30px;
     text-align: center;
-	background-image: url(../img/backgrounds/1@2x.jpg);
-	background-repeat: no-repeat !important; 
-	background-size: 1520px;
 }
 
 strong { font-weight: 500; }
