@@ -86,7 +86,7 @@
 						
 				<div class="contact-card">
 					<div class="photo">
-						<img src="https://via.placeholder.com/150x150" alt="Photo de Maxime Seigneury">
+						<img src="contact/img/contact-logo1.jpg" alt="Photo de Maxime Seigneury">
 					</div>
 					<div class="info">
 						<h3>Maxime Seigneury</h3>
@@ -114,6 +114,20 @@
 
 
         <!-- Javascript -->
+		<script>window.addEventListener('scroll', function() {
+			var navbar = document.querySelector('.navbar');
+			if (window.scrollY > navbar.offsetHeight) {
+			  navbar.classList.add('navbar-black');
+			} else {
+			  navbar.classList.remove('navbar-black');
+			}
+		  });
+		</script>
+		<script>window.addEventListener("scroll", function() {
+			var navbar = document.querySelector(".navbar");
+			navbar.classList.toggle("sticky", window.scrollY > 0);
+		  });
+		</script>
         <script src="assets/js/jquery-1.11.1.min.js"></script>
         <script src="assets/bootstrap/js/bootstrap.min.js"></script>
         <script src="assets/js/jquery.backstretch.min.js"></script>

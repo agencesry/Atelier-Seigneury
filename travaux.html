@@ -14,7 +14,6 @@
 			<link rel="stylesheet" href="assets/css/animate.css">
 			<link rel="stylesheet" href="travaux/css/style.css">
 	
-	
 			<!-- Favicon and touch icons -->
 			<link rel="shortcut icon" href="assets/ico/icone.png">
 	
@@ -100,19 +99,6 @@
 	                    	</div>
 	                    </div>
                     </div>
-                    <div class="col-md-4 section-1-box wow fadeInDown">
-	                	<div class="row">
-                			<div class="col-md-4">
-			                	<div class="section-1-box-icon icon2">
-			                	</div>
-		                	</div>
-	                		<div class="col-md-8">
-	                    		<h3><u>Kong</u></h3>
-	                    		<p>J'ai aussi pratiquer sur des ornements au coins d'une pièce, image ci-dessou (Kong).</p>
-								<a href="./travaux/sous-partie/kong.html" class="button">En savoir plus</a>
-	                    	</div>
-	                    </div>
-                    </div>
                     <div class="col-md-4 section-1-box wow fadeInUp">
 	                	<div class="row">
                 			<div class="col-md-4">
@@ -150,6 +136,20 @@
 
 
         <!-- Javascript -->
+		<script>window.addEventListener('scroll', function() {
+			var navbar = document.querySelector('.navbar');
+			if (window.scrollY > navbar.offsetHeight) {
+			  navbar.classList.add('navbar-black');
+			} else {
+			  navbar.classList.remove('navbar-black');
+			}
+		  });
+		</script>
+		<script>window.addEventListener("scroll", function() {
+			var navbar = document.querySelector(".navbar");
+			navbar.classList.toggle("sticky", window.scrollY > 0);
+		  });
+		</script>
         <script src="assets/js/jquery-1.11.1.min.js"></script>
         <script src="assets/bootstrap/js/bootstrap.min.js"></script>
         <script src="assets/js/jquery.backstretch.min.js"></script>
