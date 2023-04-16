@@ -126,8 +126,8 @@ ul.navbar-nav {
 }
 
 .section-1-box-icon {
-    width: 245px;
-    height: 245px;
+    width: 145px;
+    height: 145px;
     background-color: #f5f5f5;
     border-radius: 10px;
     margin: 0 auto;
@@ -200,6 +200,7 @@ ul.navbar-nav {
     overflow-x: scroll;
     scroll-snap-type: x mandatory;
     color: #000000;
+	margin-top: 70px;
 }
 
 .carousel-item {

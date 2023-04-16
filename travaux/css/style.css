@@ -118,6 +118,8 @@ ul.navbar-nav {
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 10px 1px;
+	margin-top: 70px;
+
 }
 
 .section-1-box {

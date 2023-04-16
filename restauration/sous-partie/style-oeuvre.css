@@ -31,7 +31,7 @@ img { max-width: 100%; border-radius: 5px; }
 /***** General style, all sections *****/
 
 .section-container { margin: 0 auto; padding-bottom: 80px; }
-.section-description { margin-top: 60px; padding-bottom: 10px; }
+.section-description { margin-top: 60px; padding-bottom: 10px; display: contents; margin-top: 50px; }
 .section-description p { margin-top: 20px; padding: 0 120px; }
 
 
@@ -114,7 +114,7 @@ ul.navbar-nav {
 
 /***** section 1 *****/
 .row {
-    display: flex;
+    display: initial;
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 10px 1px;
@@ -202,7 +202,7 @@ ul.navbar-nav {
 
 
 .photo {
-    display: flex;
+    display: contents;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -240,6 +240,7 @@ ul.navbar-nav {
     }
     
     .separe1 {
+    display: contents;
     height: 1px;
     width: 100%;
     background-color: #ccc;
