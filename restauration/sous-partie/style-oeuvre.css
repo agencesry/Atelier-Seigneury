@@ -113,6 +113,10 @@ ul.navbar-nav {
 
 
 /***** section 1 *****/
+
+.description p {
+    font-size: 2em;
+}
 .row {
     display: initial;
     flex-wrap: wrap;
