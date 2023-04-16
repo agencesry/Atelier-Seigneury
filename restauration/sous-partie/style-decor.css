@@ -127,7 +127,7 @@ ul.navbar-nav {
 
 .section-1-box-icon {
     width: 145px;
-    height: 145px;
+    height: 210px;
     background-color: #f5f5f5;
     border-radius: 10px;
     margin: 0 auto;
@@ -170,31 +170,33 @@ ul.navbar-nav {
 }
 
 .icon1{
-	background-image: url(/restauration/sous-partie/sous-partie-decor/Chateau-de-Fontainebleau-Chapelle/20201121_120442.jpg);
+	background-image: url(/restauration/sous-partie/sous-partie-decor/Chateau-de-Fontainebleau-Chapelle/20210204_093058.jpg);
 }
 .icon2{
-	background-image: url(/restauration/sous-partie/sous-partie-decor/Eglise-Saint-germain-des-Prés/20170131_085459.jpg);
+	background-image: url(/restauration/sous-partie/sous-partie-decor/Eglise-Saint-germain-des-Prés/3.jpg);
 }
 .icon3{
-	background-image: url(/restauration/sous-partie/sous-partie-decor/Eglise-saint-germain-en-laye/10.JPG);
+	background-image: url(/restauration/sous-partie/sous-partie-decor/Eglise-saint-germain-en-laye/1.jpg);
 }
 .icon4{
-	background-image: url(/restauration/sous-partie/sous-partie-decor/Eglise-St-Sulpice/St-Joseph/20220217_150403.jpg);
+	background-image: url(/restauration/sous-partie/sous-partie-decor/Eglise-St-Sulpice/20221219_134525.jpg);
 }
 .icon5{
-	background-image: url(/restauration/sous-partie/sous-partie-decor/Notre-dame-de-lorette/1.jpg);
+	background-image: url(/restauration/sous-partie/sous-partie-decor/Notre-dame-de-lorette/20210408_100041.jpg);
 }
 .icon6{
-	background-image: url(/restauration/sous-partie/sous-partie-decor/Notre-dame-de-Paris/Croix-de-la-Gloire/IMG_4663.JPG);
+	background-image: url(/restauration/sous-partie/sous-partie-decor/Notre-dame-de-Paris/IMG_4700.JPG);
 }
-.icon7{
-	background-image: url(../img/gallery/Chantiers-muraux/Eglise-Saint-germain-des-Prés/20190819_104823.jpg);
+.icon9{
+	background-image: url(/restauration/sous-partie/sous-partie-decor/Notre-dame-de-Paris/Ntre-dame-de-Paris-Chapelle-St-Germain/20200826_114920.jpg);
 }
-.icon8{
-	background-image: url(../img/Medecine/Medcecine\ lettrage.jpeg);
+.icon11 {
+	background-image: url(/restauration/sous-partie/sous-partie-decor/Eglise-St-Sulpice/St-Joseph/20230210_154910.jpg);
 }
+.icon10{
+	background-image: url(/restauration/sous-partie/sous-partie-decor/Eglise-St-Sulpice/Ste-Anne/20221219_134537.jpg);
 
-
+}
 @media only screen and (max-width: 768px) {
 	/* Styles pour les écrans de moins de 768px de large */
 	.row {
