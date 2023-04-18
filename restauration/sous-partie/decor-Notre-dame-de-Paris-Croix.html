@@ -21,6 +21,7 @@
 		</head>
 
 	<header>
+        <div class="black">
 		<!-- Top content -->
         <div class="top-content">
         
@@ -64,6 +65,7 @@
 	            </div>
             </div>
             
+        </div>
         </div>
 	</header>
 	<body>
@@ -210,20 +212,6 @@
 
 
         <!-- Javascript -->
-		<script>window.addEventListener('scroll', function() {
-			var navbar = document.querySelector('.navbar');
-			if (window.scrollY > navbar.offsetHeight) {
-			  navbar.classList.add('navbar-black');
-			} else {
-			  navbar.classList.remove('navbar-black');
-			}
-		  });
-		</script>
-		<script>window.addEventListener("scroll", function() {
-			var navbar = document.querySelector(".navbar");
-			navbar.classList.toggle("sticky", window.scrollY > 0);
-		  });
-		</script>
         <script src="/assets/js/jquery-1.11.1.min.js"></script>
         <script src="/assets/bootstrap/js/bootstrap.min.js"></script>
         <script src="/assets/js/jquery.backstretch.min.js"></script>

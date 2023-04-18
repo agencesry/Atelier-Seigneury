@@ -1,4 +1,6 @@
-
+html{
+	overflow-x: hidden;
+}
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
@@ -8,6 +10,7 @@ body {
     text-align: center;
 }
 
+
 strong { font-weight: 500; }
 
 a, a:hover, a:focus {
@@ -16,7 +19,7 @@ a, a:hover, a:focus {
 }
 
 h1, h2 { margin-top: 10px; font-family: 'Josefin Sans', sans-serif; font-size: 48px; font-weight: 300; color: #555; line-height: 56px; }
-h3 { font-family: 'Josefin Sans', sans-serif; font-size: 32px; font-weight: 300; color: #555; line-height: 40px; }
+body h3 { font-family: 'Josefin Sans', sans-serif; font-size: 32px; font-weight: 300; color: #555; line-height: 40px; }
 
 img { max-width: 100%; }
 
@@ -31,7 +34,7 @@ img { max-width: 100%; }
 /***** General style, all sections *****/
 
 .section-container { margin: 0 auto; padding-bottom: 80px; }
-.section-description { margin-top: 60px; padding-bottom: 10px; }
+.section-description { margin-top: 60px; padding-bottom: 10px; display: contents;}
 .section-description p { margin-top: 20px; padding: 0 120px; }
 
 
@@ -44,27 +47,18 @@ img { max-width: 100%; }
 /***** Top menu *****/
 
 .navbar {
+	position: fixed;
+	z-index: 9999;
+	width: 100%;
 	margin-bottom: 0;
 	padding-top: 10px;
-	background-color: rgba(0, 0, 0, 0.2);
+	background-color: rgba(0, 0, 0, 0.705);
 	border: 0;
 	-moz-border-radius: 0; -webkit-border-radius: 0; border-radius: 0;
 	-o-transition: all .6s; -moz-transition: all .6s; -webkit-transition: all .6s; -ms-transition: all .6s; transition: all .6s;
 }
 
-.navbar-black {
-	background-color: black;
-
-  }
   
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background-color: rgba(0, 0, 0);
-  z-index: 9999;
-}
-
 ul.navbar-nav {
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 14px;
@@ -102,7 +96,7 @@ ul.navbar-nav {
 /***** Top content *****/
 
 .top-content-container { padding: 100px 0 100px 0; }
-
+.black .top-content { position: relative; z-index: 1;}
 .top-content .text { color: #fff; }
 .top-content .text h1 { color: #fff; }
 
@@ -110,6 +104,7 @@ ul.navbar-nav {
 .top-content .description p { opacity: 0.8; }
 .top-content .description a { color: #fff; border-bottom: 1px dotted #fff; }
 .top-content .description a:hover, .top-content .description a:focus { color: #fff; border: 0; }
+
 
 
 ::-webkit-scrollbar{

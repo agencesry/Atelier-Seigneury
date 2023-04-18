@@ -52,19 +52,6 @@ img { max-width: 100%; border-radius: 5px; }
 	-o-transition: all .6s; -moz-transition: all .6s; -webkit-transition: all .6s; -ms-transition: all .6s; transition: all .6s;
 }
 
-.navbar-black {
-	background-color: black;
-
-  }
-  
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background-color: rgba(0, 0, 0);
-  z-index: 9999;
-}
-
 ul.navbar-nav {
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 14px;
