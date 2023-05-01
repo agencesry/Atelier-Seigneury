@@ -122,6 +122,99 @@ ul.navbar-nav {
 	border-radius: 3px;
 }
 
+/***** section 1 *****/
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px 1px;
+	margin-top: 70px;
+}
+
+.section-1-box {
+    flex: 0 0 calc(30% - 15px);
+    margin-bottom: 30px;
+    text-align: center;
+    background-color: #fff;
+    padding: 0px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.1);
+}
+
+.section-1-box-icon {
+    width: 245px;
+    height: 245px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    margin: 0 auto;
+    background-size: cover; /*ajout de la propriété background-size*/
+    background-position: center center; /*centrer l'image*/
+	margin-top: 20px;
+}
+
+
+.section-1-box h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.section-1-box p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #777;
+    margin-bottom: 30px;
+	margin: 2px;
+}
+
+.section-1-box .button {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: all 0.3s ease;
+	margin-bottom: 20px;
+}
+
+.section-1-box .button:hover {
+    background-color: #555;
+}
+
+.icon1{
+	background-image: url(/restauration/sous-partie/sous-partie-cadre/COARC-Ville-de-Paris/Lemoyne/IMG_5971.JPG);
+}
+.icon2{
+	background-image: url(/restauration/sous-partie/sous-partie-mobilier/Mobiliers/IMG_0022.JPG);
+}
+.icon3{
+	background-image: url(/restauration/sous-partie/sous-partie-decor/Eglise-St-Sulpice/Ste-Anne/20221219_134537.jpg);
+}
+.icon4{
+	background-image: url(/restauration/sous-partie/sous-partie-boiserie/cloture/20191008_091055.jpg);
+}
+
+@media only screen and (max-width: 768px) {
+	/* Styles pour les écrans de moins de 768px de large */
+	.row {
+	  width: 100%; /* faire en sorte que chaque bloc prenne toute la largeur de l'écran */
+	  display: block; /* faire en sorte que chaque bloc s'affiche en tant que bloc */
+	}
+	.section-1-box-icon {
+		width: 150px;
+		height: 150px;
+		border-radius: 50%;
+	}
+	.section-1-box .button {
+		margin-bottom: 20px;
+	}
+  }
+
+
 /***** Section 1 *****/
 
 .links-section {
