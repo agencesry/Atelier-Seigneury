@@ -121,8 +121,8 @@ ul.navbar-nav {
 }
 
 .section-1-box-icon {
-    width: 145px;
-    height: 145px;
+    width: 177px;
+    height: 222px;
     background-color: #f5f5f5;
     border-radius: 10px;
     margin: 0 auto;
@@ -166,22 +166,28 @@ ul.navbar-nav {
 }
 
 .icon1{
-	background-image: url(/restauration/sous-partie/sous-partie-cadre/COARC-Ville-de-Paris/Lemoyne/IMG_5971.JPG);
+	background-image: url(/restauration/sous-partie/sous-partie-cadre/COARC-Ville-de-Paris/Lemoyne/1.JPG);
 }
 .icon2{
-	background-image: url(/restauration/sous-partie/sous-partie-cadre/marine/20220413_134040.jpg);
+	background-image: url(/restauration/sous-partie/sous-partie-cadre/marine/20220513_113247.jpg);
 }
 .icon3{
-	background-image: url(/restauration/sous-partie/sous-partie-cadre/louvre/20220329_145519.jpg);
+	background-image: url(/restauration/sous-partie/sous-partie-cadre/louvre/20220519_124822.jpg);
 }
 .icon4{
-	background-image: url(/restauration/sous-partie/sous-partie-cadre/Evry/20210708_184404.jpg);
+	background-image: url(/restauration/sous-partie/sous-partie-cadre/Evry/20220119_154328.jpg);
 }
 .icon5{
-	background-image: url(/restauration/sous-partie/sous-partie-cadre/Beauvais/IMG_0392.JPG);
+	background-image: url(/restauration/sous-partie/sous-partie-cadre/Beauvais/IMG_6464.JPG);
 }
 .icon6{
-	background-image: url(/restauration/sous-partie/sous-partie-cadre/armée/IMG_9626.JPG);
+	background-image: url(/restauration/sous-partie/sous-partie-cadre/armée/IMG_9810.JPG);
+}
+.icon7{
+	background-image: url(/restauration/sous-partie/sous-partie-cadre/COARC-Ville-de-Paris/Lemoyne/1.JPG);
+}
+.icon8{
+	background-image: url(/restauration/sous-partie/sous-partie-cadre/COARC-Ville-de-Paris/Sceffer/2.jpg);
 }
 
 
