@@ -113,7 +113,6 @@ ul.navbar-nav {
     justify-content: space-between;
     margin: 10px 1px;
 	margin-top: 70px;
-
 }
 
 .section-1-box {
@@ -127,13 +126,14 @@ ul.navbar-nav {
 }
 
 .section-1-box-icon {
-    width: 110px;
+    width: 245px;
     height: 245px;
     background-color: #f5f5f5;
     border-radius: 10px;
     margin: 0 auto;
     background-size: cover; /*ajout de la propriété background-size*/
     background-position: center center; /*centrer l'image*/
+	margin-top: 20px;
 }
 
 
@@ -150,6 +150,7 @@ ul.navbar-nav {
     line-height: 1.6;
     color: #777;
     margin-bottom: 30px;
+	margin: 2px;
 }
 
 .section-1-box .button {
@@ -161,6 +162,7 @@ ul.navbar-nav {
     border-radius: 5px;
     font-size: 14px;
     transition: all 0.3s ease;
+	margin-bottom: 20px;
 }
 
 .section-1-box .button:hover {
@@ -168,13 +170,11 @@ ul.navbar-nav {
 }
 
 .icon1{
-	background-image: url(../img/HDV/HDV.jpg);
+	background-image: url(/travaux/sous-partie/Hotel-de-ville/hdv.jpg);
 }
-.icon2{
-	background-image: url(../img/Kong/IMG_2765.png);
-}
+
 .icon3{
-	background-image: url(../img/Medecine/Medcecine\ lettrage.jpeg);
+	background-image: url(/travaux/sous-partie/Académie-de-Médecine/20190528_140639.jpg);
 }
 
 @media only screen and (max-width: 768px) {
